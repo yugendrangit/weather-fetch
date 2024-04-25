@@ -1,0 +1,40 @@
+.container {
+  color: aliceblue;
+  background-color: rgb(35, 66, 77);
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.card {
+  border-radius: 10px !important;
+  background-image: linear-gradient(
+    to right,
+    rgb(220, 200, 165),
+    rgb(70, 85, 85)
+  );
+  margin-bottom: 10px !important;
+}
+
+.card .img-box {
+  display: flex;
+  justify-content: center;
+  height: 12em;
+  margin: 40px !important;
+}
+.img-box img {
+  border-radius: 10px !important;
+
+  align-items: center;
+}
+.card-body {
+  padding-bottom: 40px !important;
+  display: flex;
+  flex-direction: column;
+  line-height: 40px;
+  align-items: center;
+}
+.col-sm-6 {
+  margin-top: 2em !important;
+}
+h1{
+    margin-bottom: 40px !important;
+}
